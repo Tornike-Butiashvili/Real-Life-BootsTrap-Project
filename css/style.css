@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+/* second font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+/* third font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../img/header.svg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-menu {
+    background-color: #00000038;
+
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1220px;
+    }
+}
+
+.contact a:first-child i {
+    font-size: 18px;
+    padding-right: 8px;
+    color: #32e736;
+}
+
+
+.contact a:last-child i {
+    font-size: 16px;
+    padding-right: 8px;
+    color: #ffffff;
+}
+
+.contact a {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.contact-icons a {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.contact i,
+.contact-icons i {
+    margin-right: 8px;
+}
+
+.contact a:first-child {
+    margin-right: 25px;
+}
+
+.contact a:first-child i {
+    color: #32e736;
+}
+
+.top-menu {
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.nav-back {
+    background-image: url('../img/NAV-red.svg');
+    background-position: center;
+    height: 100%;
+}
+
+.nav-lato li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #d31b13;
+}
+
+.search-icon a {
+    color: #d31b13;
+    font-family: 'Lato', sans-serif;
+}
+
+.search-icon button {
+    font-family: 'Lato', sans-serif;
+    color: #d31b13;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.search-icon button:hover {
+    border: 0;
+}
+
+.logo {
+    width: 90px;
+    height: 60px;
+}
+
+.navbar {
+    filter: drop-shadow(0 0 19px rgba(153, 153, 153, 0.72));
+}
+
+.logo {
+    position: relative;
+    z-index: 999;
+}
+
+.navbar::after {
+    content: '';
+    background-color: #d31b13;
+    height: 100%;
+    width: 21%;
+    position: absolute;
+    transform: skew(-26deg) translateX(-9%);
+}
+
+.card-black p,
+.card-black a {
+    font-family: 'Lato', sans-serif;
+}
+
+.card-black p {
+    color: #384358;
+    font-size: 18px;
+}
+
+.card-black a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.card-border {
+    border-radius: 0;
+
+}
+
+.special-offers h2 {
+    font-size: 24px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 434px;
+}
+
+.second-half {
+    background-color: #24292e;
+}
+
+.second-half h2 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.second-half p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.agency p {
+    color: #24292e;
+    font-size: 24px;
+}
+
+.come-from-text p {
+    font-size: 20px;
+}
+
+.come-from-text h2 {
+    font-size: 20px;
+}
+
+.ball-img {
+    box-shadow: 100px 70px 7px #24292e;
+
+}
+
+.learn-more-button i {
+    color: #d31b13;
+    font-size: 18px;
+}
+
+.learn-more-button {
+    font-size: 18px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.custom-rev {
+    font-family: 'Lato', sans-serif
+}
+
+.tt-logo {
+    width: 50px !important;
+    height: 50px !important;
+    padding-top: 11px;
+    padding-left: 15px;
+}
+
+.three-item p {
+    padding-top: 21px;
+    padding-left: 17px;
+}
+
+.three-item a {
+    padding-top: 18px;
+    padding-left: 11px;
+    padding-right: 21px;
+    color: black;
+}
+
+.three-item a i {
+    color: yellow;
+}
+
+.card-tcontrary {
+    font-family: 'Lato', sans-serif;
+}
+
+.first-letter p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.first-letter h2 {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    background-color: #1c232b;
+}
+
+.lists h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif
+}
+
+.fb-page h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif
+}
+
+.bottom-menu {
+    background-color: #13171c;
+}
+
+.lists ul li a {
+    color: #ffffff;
+}
+
+@media (max-width:1000px) {
+    .carousel-item img {
+        display: none;
+    }
+
+    .second-half {
+        width: 100% !important;
+    }
+}
